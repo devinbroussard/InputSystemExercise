@@ -62,6 +62,7 @@ GameObject:
   - component: {fileID: 4374530761338154315}
   - component: {fileID: 3954382266629642321}
   - component: {fileID: 7794451473403689184}
+  - component: {fileID: 1859762036727536162}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -190,7 +191,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Actions: {fileID: -944628639613478452, guid: 851bb97c8dcb82645bc4e430b6443ff8,
     type: 3}
-  m_NotificationBehavior: 2
+  m_NotificationBehavior: 3
   m_UIInputModule: {fileID: 0}
   m_DeviceLostEvent:
     m_PersistentCalls:
@@ -251,4 +252,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5cfe71bfb9408b4c9c695a152ae3470, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _gun: {fileID: 0}
+  _gun: {fileID: 18369946}
+--- !u!114 &1859762036727536162
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4374530761338154305}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2698d5d4d49f0be439d641ca81f67411, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gun: {fileID: 18369946}
